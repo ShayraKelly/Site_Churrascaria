@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+#inicio{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    background-color: #7D1111;
+}
+#inicio img{
+    display: flex;
+    position: relative;
+    width: 2.8em;
+    margin-right: 1%;
+}
+
+#inicio h2{
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: .2em solid #fff;
+}
+
+section header{
+    background-color: #7D1111;
+    font-size: 40px;
+    width: 100%;
+}
+
+article{
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+    padding: 2%;
+    background-color: #A2382C;
+}
+
+.cardapio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardapio .carnes{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .carnes h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .carnes table{
+    text-align: start;
+    margin-right: 2%;
+}
+
+.cardapio .rodizio{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .rodizio h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .acompanhamento{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .acompanhamento h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .cerveja{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .cerveja h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .refrigerante{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .refrigerante h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .outros{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .outros h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .vinhos_tintos{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .vinhos_tintos h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.cardapio .vinhos_brancos{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.cardapio .vinhos_brancos h3{
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+aside, #menu_lateral{
+    display: flex;
+    width: 20%;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+aside img{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
+section{
+    text-align: center;
+}
+
+section article{
+    gap: 1em;
+}
+
+section footer{
+    width: 100%;
+    height: 100%;
+    background-color: #A2382C;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5% 0;
+}
+
+nav ul a{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin: 20%;
+    padding: .5em;
+    color: #000;
+    justify-content: center;
+    border-radius: .8em;
+    font-size: 1.4em;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+address{
+    margin: 1%;
+    justify-content: center;
+    display: flex;
+    background-color: #B10738;
+}
+
+address p{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
